@@ -182,7 +182,7 @@ module.exports = class SmartTypers extends Plugin {
                     className: 'gradient',
                     style: {
                       '--smartTypers-primary': member.colorString,
-                      '--smartTypers-secondary': _this.shadeColor(member.colorString, 75)
+                      '--smartTypers-secondary': member.colorString
                     }
                   }, substring);
                 }
